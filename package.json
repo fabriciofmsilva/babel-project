@@ -1,0 +1,29 @@
+{
+  "name": "babel-project",
+  "version": "1.0.0",
+  "description": "Babel Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d app --source-maps",
+    "watch": "babel src -d app --source-maps --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabriciofmsilva/babel-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabriciofmsilva/babel-project/issues"
+  },
+  "homepage": "https://github.com/fabriciofmsilva/babel-project#readme",
+  "dependencies": {
+    "@babel/cli": "^7.0.0-beta.47",
+    "@babel/core": "^7.0.0-beta.47",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0-beta.47",
+    "@babel/plugin-proposal-pipeline-operator": "^7.0.0-beta.47",
+    "@babel/preset-env": "^7.0.0-beta.47"
+  }
+}
